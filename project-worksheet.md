@@ -7,7 +7,7 @@
 
 ## Project Description
 
-With this project, I will create a sports app that will display different leagues, such as NBA, MLB, NFL, and English Premier League. I will able to display a list of teams in the league with the ability to see their last 5 events. 
+With this project, I will create a sports app that will display different leagues, such as NBA, MLB, NFL, and English Premier League. I will able to display a list of teams in the league with the ability to see their team information and their last 5 events. 
 
 ## API
 
