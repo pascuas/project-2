@@ -7,15 +7,16 @@
 
 ## Project Description
 
-Use this section to describe your final project and perhaps any links to relevant sites that help convey the concept and\or functionality.
+With this project, I will create a sports app that will display different leagues, such as NBA, MLB, NFL, and English Premier League. I will able to display a list of teams in the league with the ability to see their last 5 events. 
 
 ## API
 
-Use this section to include info about the API you have chosen and a code snippet of the data that it returns and is required for your project. 
+api - https://www.thesportsdb.com/api.php
 
 
 ```
-{data: {} }
+{data: {idTeam: "133604" idSoccerXML: "9" idAPIfootball: "42" intLoved: "2" strTeam: "Arsenal" strTeamShort:Ars"
+         strAlternate: "Gunners, Arsenal Football Club, AFC" intFormedYear: "1892" strSport: "Soccer"} }
 ```
 
 
