@@ -30,13 +30,13 @@ Upload images of wireframe to cloudinary and add the link here with a descriptio
 
 ### MVP/PostMVP - 5min
 
-#### MVP EXAMPLE
+#### MVP 
 - Find and use external api 
 - Render data on page/ Ability to see the information about a team.
 - Allow user to interact with the page
 - Multiple routes/Able to click on logos
 
-#### PostMVP EXAMPLE
+#### PostMVP 
 
 - User has the ability to add favorite teams
 - User can directly search for team on a form
