@@ -24,8 +24,8 @@ api - https://www.thesportsdb.com/api.php
 
 Upload images of wireframe to cloudinary and add the link here with a description of the specific wireframe. Also, define the the React components and the architectural design of your app.
 
-- [add link to your wireframes]()
-- [add link to your react architecture]()
+- Wireframe: https://res.cloudinary.com/drxoihdbb/image/upload/v1585266397/Pictures/IMG_1303_i2nqfc.heic
+- App Architecture: https://docs.google.com/drawings/d/14jlJaHYog9rIPPk7X7diZHopfhEK_DUmYx-h4-w7rrY/
 
 
 ### MVP/PostMVP - 5min
@@ -68,7 +68,7 @@ Time frames are also key in the development cycle.  You have limited time to cod
 | League Teams Page | H | 6hrs | | |
 | Team Information Page | H | 6hrs | |
 | Main Page/Working with Router | H | 4hrs | | |
-| Total | H | 27hrs| | |
+| Total | H | 28hrs| | |
 
 ## Additional Libraries
  Use this section to list all supporting libraries and thier role in the project such as Axios, ReactStrap, D3, etc. 
