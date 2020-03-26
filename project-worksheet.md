@@ -2,7 +2,7 @@
 
 ## Project Links
 
-- [add your github repo link]()
+- github repo: https://github.com/pascuas/project-2
 - [add your deployment link]()
 
 ## Project Description
