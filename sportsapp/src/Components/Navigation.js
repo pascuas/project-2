@@ -1,9 +1,10 @@
 import React from 'react'
+import {Link} from 'react-router-dom'
 
 function Navigation() {
     return (
         <div className='nav'>
-            <a href="#">theSportsApp</a>
+            <Link to='/'>theSportsApp</Link>
         </div>
     )
 }
