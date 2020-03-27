@@ -11,11 +11,12 @@ With this project, I will create a sports app that will display different league
 
 ## API
 
-- League logos: https://www.thesportsdb.com/api/v1/json/1/search_all_leagues.php?c=USA, https://www.thesportsdb.com/api/v1/json/1/search_all_leagues.php?c=England
-- Team information: EPL: https://www.thesportsdb.com/api/v1/json/1/search_all_teams.php?l=English%20Premier%20League
-		    NBA: https://www.thesportsdb.com/api/v1/json/1/search_all_teams.php?l=NBA
-		    NFL: https://www.thesportsdb.com/api/v1/json/1/search_all_teams.php?l=NFL
-		    MLB: https://www.thesportsdb.com/api/v1/json/1/search_all_teams.php?l=MLB
+- USA League logos: https://www.thesportsdb.com/api/v1/json/1/search_all_leagues.php?c=USA
+- Enlgland League logo : https://www.thesportsdb.com/api/v1/json/1/search_all_leagues.php?c=England
+- EPL: https://www.thesportsdb.com/api/v1/json/1/search_all_teams.php?l=English%20Premier%20League
+- NBA: https://www.thesportsdb.com/api/v1/json/1/search_all_teams.php?l=NBA
+- NFL: https://www.thesportsdb.com/api/v1/json/1/search_all_teams.php?l=NFL
+- MLB: https://www.thesportsdb.com/api/v1/json/1/search_all_teams.php?l=MLB
 
 
 
