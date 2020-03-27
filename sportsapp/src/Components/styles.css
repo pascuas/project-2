@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css?family=Passion+One&display=swap');
+
+
+.nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #0b1529;
+    height: 60px
+}
+
+.nav > a {
+    color: white;
+    text-decoration: none;
+    font-family: 'Passion One', cursive;
+    font-size: 40px;
+}
