@@ -50,7 +50,7 @@ Based on the initial logic defined in the previous sections try and breakdown th
 | --- | :---: |  
 | App | This will make the initial data pull and include React Router| 
 | Header | This will render the header include the nav | 
-| Footer | This will render the header include the nav | 
+| Footer | This will render the footer | 
 | Main | This will render what ever route is being chosen |
 | Home | This will render the league logos |
 | League Teams | This will render the team logos |
