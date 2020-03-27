@@ -78,7 +78,7 @@ Time frames are also key in the development cycle.  You have limited time to cod
 | Team Information Page | H | 4hrs | |
 | Testing Team Information Page | H | 2hrs | | |
 | Main Page/Working with Router | H | 4hrs | | |
-| Testing Main Page/Routes | 2hrs | | |
+| Testing Main Page/Routes | H | 2hrs | | |
 | CSS/Styling | H | 4hrs | | |
 | Deployment | H | 1hr | | |
 | Total | H | 36hrs| | |
