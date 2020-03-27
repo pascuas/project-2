@@ -11,7 +11,13 @@ With this project, I will create a sports app that will display different league
 
 ## API
 
-api - https://www.thesportsdb.com/api.php
+API for league logos - https://www.thesportsdb.com/api/v1/json/1/search_all_leagues.php?c=USA,
+		       https://www.thesportsdb.com/api/v1/json/1/search_all_leagues.php?c=England
+API for team information - EPL: https://www.thesportsdb.com/api/v1/json/1/search_all_teams.php?l=English%20Premier%20League
+			   NBA: https://www.thesportsdb.com/api/v1/json/1/search_all_teams.php?l=NBA
+			   NFL: https://www.thesportsdb.com/api/v1/json/1/search_all_teams.php?l=NFL
+			   MLB: https://www.thesportsdb.com/api/v1/json/1/search_all_teams.php?l=MLB
+
 
 
 ```
@@ -24,7 +30,7 @@ api - https://www.thesportsdb.com/api.php
 
 Upload images of wireframe to cloudinary and add the link here with a description of the specific wireframe. Also, define the the React components and the architectural design of your app.
 
-- Wireframe: https://res.cloudinary.com/drxoihdbb/image/upload/v1585266397/Pictures/IMG_1303_i2nqfc.heic
+- Wireframe: https://res.cloudinary.com/drxoihdbb/image/upload/v1585328825/Pictures/IMG_1303_rfm7kq.jpg
 - App Architecture: https://docs.google.com/drawings/d/14jlJaHYog9rIPPk7X7diZHopfhEK_DUmYx-h4-w7rrY/
 
 
@@ -61,14 +67,21 @@ Time frames are also key in the development cycle.  You have limited time to cod
 
 | Component | Priority | Estimated Time | Time Invetsted | Actual Time |
 | --- | :---: |  :---: | :---: | :---: |
-| Header/Navigation | H | 3hrs|  |  |
-| Footer | H | 2hrs | | |
+| Header/Navigation | H | 2hrs|  |  |
+| Footer | H | 1hr | | |
 | Working with API | H | 3hrs|  |  |
+| Testing API | H | 2hrs | | |
 | Home Page | H | 4hrs | | |
-| League Teams Page | H | 6hrs | | |
-| Team Information Page | H | 6hrs | |
+| Testing Home Page | H | 1hr | | |
+| League Teams Page | H | 4hrs | | |
+| Testing League Teams Page | H | 2hrs | | |
+| Team Information Page | H | 4hrs | |
+| Testing Team Information Page | H | 2hrs | | |
 | Main Page/Working with Router | H | 4hrs | | |
-| Total | H | 28hrs| | |
+| Testing Main Page/Routes | 2hrs | | |
+| CSS/Styling | H | 4hrs | | |
+| Deployment | H | 1hr | | |
+| Total | H | 36hrs| | |
 
 ## Additional Libraries
  Use this section to list all supporting libraries and thier role in the project such as Axios, ReactStrap, D3, etc. 
