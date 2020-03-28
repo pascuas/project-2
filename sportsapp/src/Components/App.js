@@ -1,6 +1,7 @@
 import React from 'react';
 import Navigation from './Navigation'
 import Main from './Main'
+import Footer from './Footer'
 import './styles.css'
 
 function App() {
@@ -8,6 +9,7 @@ function App() {
     <div className="App">
       <Navigation />
       <Main />
+      <Footer />
     </div>
   );
 }
