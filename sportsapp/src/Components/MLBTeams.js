@@ -1,4 +1,5 @@
 import React, {useState, useEffect} from 'react'
+import {Link} from 'react-router-dom'
 
 function MLBTeams() {
     const [mlbTeams, setMlbTeams] = useState(false)
@@ -19,8 +20,8 @@ function MLBTeams() {
 
     const teams = mlbTeams.map((team, index) => {
         return (
-            <div className='nbaTeam' key={index}>
-                <img src={team.strTeamBadge} alt={team.strTeamShort} />
+            <div className='mlbTeam' key={index}>
+                <Link to={`/MLBTeams/${team.strTeam}`}><img src={team.strTeamBadge} alt={team.strTeamShort} /></Link>
             </div>
         )
     })
