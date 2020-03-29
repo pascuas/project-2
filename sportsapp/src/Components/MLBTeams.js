@@ -29,7 +29,6 @@ function MLBTeams() {
 
     return (
         <div className='teamsContainer'>
-            <h1>MLB Teams Page</h1>
             {teams}
         </div>
     )

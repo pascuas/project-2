@@ -78,6 +78,16 @@ body {
     .leagues > a > img {
         width: 80%
     }
+    .teamsContainer {
+        justify-content: center;
+    }
+
+    .teamsContainer > a {
+        width: 30%
+    }
+    .teamsContainer > a > img {
+        width: 50%
+    }
 }
 
 @media (min-width: 1024px) {    
@@ -90,5 +100,14 @@ body {
     }
     .leagues > a > img {
         width: 100%;
+    }
+    .teamsContainer > a {
+        width: 20%
+    }
+    .teamsContainer > a:hover {
+        transform: scale(1.1);
+    }
+    .teamsContainer > a > img {
+        width: 40%
     }
 }

@@ -29,7 +29,6 @@ function EPLTeams() {
 
     return (
         <div className='teamsContainer'>
-            <h1>EPL Teams</h1>
             {teams}
         </div>
     )

@@ -29,7 +29,6 @@ function NFLTeams() {
 
     return (
         <div className='teamsContainer'>
-            <h1>NFL Teams Page</h1>
             {teams}
         </div>
         
