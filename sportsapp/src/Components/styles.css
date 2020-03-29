@@ -1,5 +1,8 @@
 @import url('https://fonts.googleapis.com/css?family=Passion+One&display=swap');
 
+body {
+    background-color: #e2e2e2;
+}
 
 .nav {
     display: flex;
@@ -26,4 +29,47 @@
 
 .footer > h3 {
     color: white;
+}
+
+.leagues {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px 0
+}
+
+.leagues > a {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+
+.leagues > a > img {
+    width: 50%;
+}
+
+@media (min-width: 768px) {
+    .leagues {
+        justify-content: center;
+    }
+
+    .leagues > a {
+        width: 40%;
+    }
+
+    .leagues > a > img {
+        width: 80%
+    }
+}
+
+@media (min-width: 1024px) {    
+    .leagues > a {
+        width: 30%;
+        margin: 30px;
+    }
+    .leagues > a:hover {
+        transform: scale(1.1);
+    }
+    .leagues > a > img {
+        width: 100%;
+    }
 }

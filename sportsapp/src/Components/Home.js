@@ -35,13 +35,15 @@ function Home() {
     };
 
     return (
-        <div className='leagues'>
-            <h1>HOME PAGE</h1>
-            <Link to='/NBATeams'><img src={usLeague[3].strBadge} alt={usLeague[3].strLeague} /></Link>
-            <Link to='/NFLTeams'><img src={usLeague[5].strBadge} alt={usLeague[5].strLeague} /></Link>
-            <Link to='/MLBTeams'><img src={usLeague[7].strBadge} alt={usLeague[7].strLeague} /></Link>
-            <Link to='EPLTeams'><img src={engLeague[18].strBadge} alt={engLeague[18].strLeague} /></Link>
-        </div>
+        <>
+            <h1>HomePage</h1>
+            <div className='leagues'>
+                <Link to='/NBATeams'><img src={usLeague[3].strBadge} alt={usLeague[3].strLeague} /></Link>
+                <Link to='/NFLTeams'><img src={usLeague[5].strBadge} alt={usLeague[5].strLeague} /></Link>
+                <Link to='/MLBTeams'><img src={usLeague[7].strBadge} alt={usLeague[7].strLeague} /></Link>
+                <Link to='EPLTeams'><img src={engLeague[18].strBadge} alt={engLeague[18].strLeague} /></Link>
+            </div>
+        </>
     )
 }
 export default Home
