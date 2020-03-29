@@ -20,14 +20,15 @@ function MLBTeams() {
 
     const teams = mlbTeams.map((team, index) => {
         return (
-            <div className='mlbTeam' key={index}>
-                <Link to={`/MLBTeams/${team.strTeam}`}><img src={team.strTeamBadge} alt={team.strTeamShort} /></Link>
-            </div>
+            <Link key={index} to={`/MLBTeams/${team.strTeam}`}>
+                <img src={team.strTeamBadge} alt={team.strTeamShort} />
+                <h4>{team.strTeam}</h4>
+            </Link>
         )
     })
 
     return (
-        <div className='mlbContainer'>
+        <div className='teamsContainer'>
             <h1>MLB Teams Page</h1>
             {teams}
         </div>

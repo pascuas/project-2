@@ -47,6 +47,25 @@ body {
     width: 50%;
 }
 
+.teamsContainer {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.teamsContainer > a {
+    text-align: center;
+    margin: 20px 0;
+    text-decoration: none;
+}
+
+.teamsContainer > a > img {
+    width: 40%;
+}
+
+.teamsContainer > a > h4 {
+    color: black
+}
+
 @media (min-width: 768px) {
     .leagues {
         justify-content: center;

@@ -20,14 +20,15 @@ function EPLTeams() {
 
     const teams = eplTeams.map((team, index) => {
         return (
-            <div className='eplTeam' key={index}>
-                <Link to={`/EPLTeams/${team.strTeam}`}><img src={team.strTeamBadge} alt={team.strTeam} /></Link>
-            </div>
+            <Link to={`/EPLTeams/${team.strTeam}`}>
+                <img src={team.strTeamBadge} alt={team.strTeam} />
+                <h4>{team.strTeam}</h4>
+            </Link>
         )
     })
 
     return (
-        <div className='eplContainer'>
+        <div className='teamsContainer'>
             <h1>EPL Teams</h1>
             {teams}
         </div>

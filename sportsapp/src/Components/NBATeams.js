@@ -20,15 +20,15 @@ function NBATeams() {
 
     const teams = nbaTeams.map((team, index) => {
         return (
-            <div className='nbaTeam' key={index}>
-                <Link to={`/NBATeams/${team.strTeam}`}><img src={team.strTeamBadge} alt={team.strTeamShort} /></Link>
-            </div>
+            <Link key={index} to={`/NBATeams/${team.strTeam}`}>
+                <img src={team.strTeamBadge} alt={team.strTeamShort} />
+            </Link>
+            
         )
     })
 
     return (
-        <div className='nbaContainer'>
-            <h1>NBA Teams Page</h1>
+        <div className='teamsContainer'>
             {teams}
         </div>
         

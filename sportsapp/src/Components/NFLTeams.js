@@ -20,14 +20,15 @@ function NFLTeams() {
 
     const teams = nflTeams.map((team, index) => {
         return (
-            <div className='nflTeam' key={index}>
-                <Link to={`/NFLTeams/${team.strTeam}`}><img src={team.strTeamBadge} alt={team.strTeamShort} /></Link>
-            </div>
+            <Link key={index} to={`/NFLTeams/${team.strTeam}`}>
+                <img src={team.strTeamBadge} alt={team.strTeamShort} />
+                <h4>{team.strTeam}</h4>
+            </Link>
         )
     })
 
     return (
-        <div className='nflContainer'>
+        <div className='teamsContainer'>
             <h1>NFL Teams Page</h1>
             {teams}
         </div>
