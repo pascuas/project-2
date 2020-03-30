@@ -23,8 +23,7 @@ function NBATeams() {
             <Link key={index} to={`/NBATeams/${team.strTeam}`}>
                 <img src={team.strTeamBadge} alt={team.strTeamShort} />
                 <h4>{team.strTeam}</h4>
-            </Link>
-            
+            </Link> 
         )
     })
 
