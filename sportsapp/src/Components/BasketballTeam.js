@@ -3,24 +3,31 @@ import LatestResult from './LatestResult'
 
 function BasketballTeam(props) {
     console.log('BasketballTeam - props', props)
-    const [team, setTeam] = useState(false)
-    const apiUrl = 'https://www.thesportsdb.com/api/v1/json/1/searchteams.php?t='
-    useEffect(() => {
-        const name = props.match.params.name
-        const url = `${apiUrl}${name}`
-        const makeApiCall = async () => {
-            const res = await fetch(url)
-            const json = await res.json()
-            console.log('team-page', json.teams)
-            setTeam(json.teams)
-        
-        }
-        makeApiCall()
-    }, [props.match.params.name]) 
+    let team =[]
+    for (let i =0; i < props.nbaTeams.length; i ++)
+    if (props.nbaTeams[i].strTeam === props.match.params.name) {
+        team = props.nbaTeams[i]
+    }
+    console.log('team', team)
 
-    if (!team) {
-        return <></>
-    };
+    // const [team, setTeam] = useState(false)
+    // const apiUrl = 'https://www.thesportsdb.com/api/v1/json/1/searchteams.php?t='
+    // useEffect(() => {
+    //     const name = props.match.params.name
+    //     const url = `${apiUrl}${name}`
+    //     const makeApiCall = async () => {
+    //         const res = await fetch(url)
+    //         const json = await res.json()
+    //         console.log('team-page', json.teams)
+    //         setTeam(json.teams)
+        
+    //     }
+    //     makeApiCall()
+    // }, [props.match.params.name]) 
+
+    // if (!team) {
+    //     return <></>
+    // };
         
     // useEffect(() => {
     //     const resultApiCall = async () => {
@@ -36,8 +43,8 @@ function BasketballTeam(props) {
     return (
         <>
             <div className='teamPage'>
-                <img src={team[0].strTeamBanner} /> 
-                <LatestResult team={team}/>
+                <img src={team.strTeamBanner} /> 
+                {/* <LatestResult team={team} {...props}/> */}
             </div>
         </>
     )
