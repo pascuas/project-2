@@ -44,7 +44,7 @@ function BasketballTeam(props) {
         <>
             <div className='teamPage'>
                 <img src={team.strTeamBanner} /> 
-                {/* <LatestResult team={team} {...props}/> */}
+                <LatestResult team={team} {...props}/>
             </div>
         </>
     )
