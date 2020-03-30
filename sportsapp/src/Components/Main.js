@@ -47,6 +47,18 @@ function Main() {
         }
         makeApiCall()
     }, [])
+
+    const [eplTeams, setEplTeams] = useState(false)
+    useEffect(() => {
+        const url = "https://www.thesportsdb.com/api/v1/json/1/search_all_teams.php?l=English%20Premier%20League"
+        const makeApiCall = async () => {
+            const res = await fetch(url)
+            const json = await res.json()
+            console.log('epl teams page', json.teams)
+            setEplTeams(json.teams)
+        }
+        makeApiCall()
+    }, [])
     
     return (
         <main>
@@ -55,11 +67,11 @@ function Main() {
                 <Route exact path='/NBATeams' render={(props) => <NBATeams nbaTeams={nbaTeams}/>} />
                 <Route exact path='/NFLTeams' render={(props) => <NFLTeams nflTeams={nflTeams}/>} />
                 <Route exact path='/MLBTeams' render={(props) => <MLBTeams mlbTeams={mlbTeams}/>} />
-                <Route exact path='/EPLTeams' component={EPLTeams} />
+                <Route exact path='/EPLTeams' render={(props) => <EPLTeams eplTeams={eplTeams}/>} />
                 <Route path='/NBATeams/:name' render={ (routerProps) => <BasketballTeam nbaTeams={nbaTeams}{...routerProps} />} />
                 <Route path='/NFLTeams/:name' render={ (routerProps) => <FootballTeam nflTeams={nflTeams}{...routerProps} />} />
                 <Route path='/MLBTeams/:name' render={ (routerProps) => <BaseballTeam mlbTeams={mlbTeams}{...routerProps} />} />
-                <Route path='/EPLTeams/:name' render={ (routerProps) => <Futbol {...routerProps} />} />
+                <Route path='/EPLTeams/:name' render={ (routerProps) => <Futbol eplTeams={eplTeams}{...routerProps} />} />
             </Switch>
         </main>
     )
