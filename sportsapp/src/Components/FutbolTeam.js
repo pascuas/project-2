@@ -12,7 +12,7 @@ function Futbol(props) {
     return (
         <>
             <div className='teamPage'>
-                <img src={team.strTeamBanner} /> 
+                <img src={team.strTeamBanner} alt={team.strTeamShort}/> 
                 <EPLLatestResult team={team} {...props}/>
             </div>
         </>

@@ -72,7 +72,7 @@ function LatestResult(props) {
                 </div>
                 <div className='gameOpponentFlexHolder'>
                     <div className='gameOpponent'>
-                        <img src={opponentOne.strTeamBadge} />
+                        <img src={opponentOne.strTeamBadge} alt={opponentOne.strTeam} />
                         <div>
                             <p className='teamName'>{opponentOne.strTeam}</p>
                         </div>
@@ -90,7 +90,7 @@ function LatestResult(props) {
                 </div>
                 <div className='gameOpponentFlexHolder'>
                     <div className='gameOpponent'>
-                        <img src={opponentTwo.strTeamBadge} />
+                        <img src={opponentTwo.strTeamBadge} alt={opponentTwo.strTeam} />
                         <div>
                             <p className='teamName'>{opponentTwo.strTeam}</p>
                         </div>
@@ -108,7 +108,7 @@ function LatestResult(props) {
                 </div>
                 <div className='gameOpponentFlexHolder'>
                     <div className='gameOpponent'>
-                        <img src={opponentThree.strTeamBadge} />
+                        <img src={opponentThree.strTeamBadge} alt={opponentThree.strTeam} />
                         <div>
                             <p className='teamName'>{opponentThree.strTeam}</p>
                         </div>
@@ -126,7 +126,7 @@ function LatestResult(props) {
                 </div>
                 <div className='gameOpponentFlexHolder'>
                     <div className='gameOpponent'>
-                        <img src={opponentFour.strTeamBadge} />
+                        <img src={opponentFour.strTeamBadge} alt={opponentFour.strTeam} />
                         <div>
                             <p className='teamName'>{opponentFour.strTeam}</p>
                         </div>
@@ -144,7 +144,7 @@ function LatestResult(props) {
                 </div>
                 <div className='gameOpponentFlexHolder'>
                     <div className='gameOpponent'>
-                        <img src={opponentFive.strTeamBadge} />
+                        <img src={opponentFive.strTeamBadge} alt={opponentFive.strTeam} />
                         <div>
                             <p className='teamName'>{opponentFive.strTeam}</p>
                         </div>

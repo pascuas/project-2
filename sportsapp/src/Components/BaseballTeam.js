@@ -12,7 +12,7 @@ function BaseballTeam(props) {
     return (
         <>
             <div className='teamPage'>
-                <img src={team.strTeamBanner} /> 
+                <img src={team.strTeamBanner} alt={team.strTeamShort}/> 
                 <MLBLatestResult team={team} {...props}/>
             </div>
         </>
