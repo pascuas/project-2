@@ -1,7 +1,8 @@
 @import url('https://fonts.googleapis.com/css?family=Passion+One&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Proza+Libre:400,700&display=swap');
 
 body {
-    background-color: #e2e2e2;
+    background-color: #ffffff;
 }
 
 .nav {
@@ -68,6 +69,7 @@ body {
 
 .teamPage > img {
     width: 100%
+    
 }
 .teamPage > .socialMedia {
     display: flex;
@@ -84,11 +86,11 @@ body {
 .resultsContainer {
     display: flex;
     padding: 8px 0px;
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid #cccccc;
     margin: 0 5px;
 }
 .resultsContainer:first-of-type {
-    border-top: 1px solid black
+    border-top: 1px solid #cccccc
 }
 .gameOpponentFlexHolder {
     display: flex;
@@ -97,19 +99,25 @@ body {
 }
 .gameInfo {
     flex:0.5;
-    border-right: 1px solid black
+    border-right: 1px solid #cccccc
+}
+.gameInfo > p {
+    font-family: 'Proza Libre', sans-serif;
+    font-weight: 700;
 }
 .homeLabel {
     color: white;
     background-color: #0f3369;
     padding: 0 8px;
     border-radius: 24px;
+    font-family: 'Proza Libre', sans-serif;
 }
 .awayLabel {
     color: black;
-    background-color: #a71931;
+    background-color: #f8b929;
     padding: 0 8px;
     border-radius: 24px;
+    font-family: 'Proza Libre', sans-serif;
 }
 .gameOpponent {
     display: flex;
@@ -118,11 +126,16 @@ body {
 }
 .gameOpponent > img {
     display: block;
-    width: 30%
+    width: 25%
 }
 .gameScores > p {
     font-size: 0.9em;
     text-align: center;
+}
+.teamName {
+    font-family: 'Proza Libre', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
 }
 
 
@@ -148,6 +161,27 @@ body {
     .teamsContainer > a > img {
         width: 50%
     }
+    
+    .gameOpponent > img {
+        width: 20%
+    }
+    .gameOpponentFlexHolder {
+        flex-direction: row;
+    } 
+    .gameInfo {
+        flex: 0.3;
+    }
+    .gameOpponent {
+        border-right: 1px solid #cccccc;
+        flex: 1;
+    }
+    .gameScores {
+        flex: 1;
+        margin: auto;
+    }
+    .teamPage > .socialMedia > li > a >img {
+        width: 25%;
+    }
 }
 
 @media (min-width: 1024px) {    
@@ -169,5 +203,21 @@ body {
     }
     .teamsContainer > a > img {
         width: 40%
+    }
+    .gameInfo {
+        flex: 0.2;
+    }
+    .gameOpponent {
+        flex: 0.7;
+    }
+    .gameScores {
+        margin: auto;
+    }
+    .gameScores > p {
+        text-align: left;
+        margin-left: 20px;
+    }
+    .teamPage > .socialMedia > li > a >img {
+        width: 10%;
     }
 }
