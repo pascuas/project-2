@@ -68,10 +68,10 @@ function Main() {
                 <Route exact path='/NFLTeams' render={(props) => <NFLTeams nflTeams={nflTeams}/>} />
                 <Route exact path='/MLBTeams' render={(props) => <MLBTeams mlbTeams={mlbTeams}/>} />
                 <Route exact path='/EPLTeams' render={(props) => <EPLTeams eplTeams={eplTeams}/>} />
-                <Route path='/NBATeams/:name' render={ (routerProps) => <BasketballTeam nbaTeams={nbaTeams}{...routerProps} />} />
-                <Route path='/NFLTeams/:name' render={ (routerProps) => <FootballTeam nflTeams={nflTeams}{...routerProps} />} />
-                <Route path='/MLBTeams/:name' render={ (routerProps) => <BaseballTeam mlbTeams={mlbTeams}{...routerProps} />} />
-                <Route path='/EPLTeams/:name' render={ (routerProps) => <FutbolTeam eplTeams={eplTeams}{...routerProps} />} />
+                <Route exact path='/NBATeams/:name' render={ (routerProps) => <BasketballTeam nbaTeams={nbaTeams}{...routerProps} />} />
+                <Route exact path='/NFLTeams/:name' render={ (routerProps) => <FootballTeam nflTeams={nflTeams}{...routerProps} />} />
+                <Route exact path='/MLBTeams/:name' render={ (routerProps) => <BaseballTeam mlbTeams={mlbTeams}{...routerProps} />} />
+                <Route exact path='/EPLTeams/:name' render={ (routerProps) => <FutbolTeam eplTeams={eplTeams}{...routerProps} />} />
             </Switch>
         </main>
     )
