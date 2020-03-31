@@ -153,7 +153,7 @@ function LatestResult(props) {
                             <p>{latestResult[4].strHomeTeam}: {latestResult[4].intHomeScore}   -   {latestResult[4].intAwayScore} :{latestResult[4].strAwayTeam}</p>
                     </div>
                 </div>
-            </div>
+            </div>       
         </>
     )
 }

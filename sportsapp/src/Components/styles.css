@@ -69,11 +69,20 @@ body {
 .teamPage > img {
     width: 100%
 }
+.teamPage > .socialMedia {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 40px 0
+}
+.teamPage > .socialMedia > img {
+    width: 15%;
+}
 
 .resultsContainer {
     display: flex;
     padding: 8px 0px;
     border-bottom: 1px solid black;
+    margin: 0 5px;
 }
 .resultsContainer:first-of-type {
     border-top: 1px solid black
@@ -109,7 +118,8 @@ body {
     width: 30%
 }
 .gameScores > p {
-    font-size: 0.9em
+    font-size: 0.9em;
+    text-align: center;
 }
 
 
