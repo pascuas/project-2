@@ -150,6 +150,17 @@ body {
     font-family: 'Proza Libre', sans-serif;
     font-size: 1.5em;
 }
+.teamInfo {
+    font-family: 'Proza Libre', sans-serif;
+}
+.teamInfo > p {
+    margin: 10px 0;
+    line-height: 25px;
+}
+.boldText {
+    font-weight: bold;
+    font-size: 1.1em;
+}
 
 @media (min-width: 768px) {
     .leagues {
