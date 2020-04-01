@@ -76,7 +76,9 @@ body {
 
 .teamPage > img {
     width: 100%
-    
+}
+.teamPage > a > svg {
+    margin-top:15px;
 }
 .teamPage > .socialMedia {
     display: flex;
