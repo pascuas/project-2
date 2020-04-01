@@ -1,5 +1,8 @@
 import React from 'react'
 import MLBLatestResult from './MLBLatestResult'
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faArrowLeft } from "@fortawesome/free-solid-svg-icons";
+import {Link} from 'react-router-dom'
 
 
 function BaseballTeam(props) {
@@ -15,6 +18,7 @@ function BaseballTeam(props) {
         <>
             <div className='teamPage'>
                 <img src={team.strTeamBanner} alt={team.strTeamShort}/> 
+                <Link to='/MLBTeams'><FontAwesomeIcon icon={faArrowLeft} size="2x"></FontAwesomeIcon></Link>
                 <MLBLatestResult team={team} {...props}/>
                 <h1 className='sectionTitle'>Social Media</h1>
                 <ul className='socialMedia'>

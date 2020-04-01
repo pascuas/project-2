@@ -1,6 +1,8 @@
 import React from 'react'
 import NFLLatestResult from './NFLLatestResult'
-// import Image from 'react-bootstrap/Image'
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faArrowLeft } from "@fortawesome/free-solid-svg-icons";
+import {Link} from 'react-router-dom'
 
 function FootballTeam(props) {
     console.log('FootballTeam - props', props)
@@ -14,6 +16,7 @@ function FootballTeam(props) {
         <>
             <div className='teamPage'>
                 <img src={team.strTeamBanner} alt={team.strTeamShort}/> 
+                <Link to='/NFLTeams'><FontAwesomeIcon icon={faArrowLeft} size="2x"></FontAwesomeIcon></Link>
                 <NFLLatestResult team={team} {...props}/>
                 <h1 className='sectionTitle'>Social Media</h1>
                 <ul className='socialMedia'>
