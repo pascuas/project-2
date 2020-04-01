@@ -23,7 +23,7 @@ function BaseballTeam(props) {
                 <div className='teamInfo'>
                     <h1 className='sectionTitle'>Team Information</h1>
                     <p><span className='boldText'>About:</span> {team.strDescriptionEN}</p>
-                    <p><span className='boldText'>Manager:</span> {team.strManager}</p>
+                    <p><span className='boldText'>Location:</span> {team.strStadiumLocation}</p>
                     <p><span className='boldText'>BallPark:</span> {team.strStadium}</p>
                     <p><span className='boldText'>BallPark Capacity:</span> {team.intStadiumCapacity}</p>
                     <p><span className='boldText'>Team Website:</span> <a href={"https://" + team.strWebsite} target="_blank">{team.strTeam}</a></p>
