@@ -36,7 +36,7 @@ function Home() {
 
     return (
         <>
-            <h1>HomePage</h1>
+            <h1 className="pageTitle">Leagues</h1>
             <div className='leagues'>
                 <Link to='/NBATeams'><img src={usLeague[3].strBadge} alt={usLeague[3].strLeague} /></Link>
                 <Link to='/NFLTeams'><img src={usLeague[5].strBadge} alt={usLeague[5].strLeague} /></Link>

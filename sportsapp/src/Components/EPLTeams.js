@@ -18,9 +18,12 @@ function EPLTeams(props) {
     })
 
     return (
-        <div className='teamsContainer'>
-            {teams}
-        </div>
+        <>
+            <h1 className='pageTitle'>Teams</h1>
+            <div className='teamsContainer'>
+                {teams}
+            </div>
+        </>
     )
 }
 export default EPLTeams

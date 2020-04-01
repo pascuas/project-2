@@ -32,6 +32,11 @@ body {
     color: white;
 }
 
+.pageTitle {
+    font-family: 'Proza Libre', sans-serif;
+    text-align: center;
+}
+
 .leagues {
     display: flex;
     flex-wrap: wrap;
@@ -64,7 +69,9 @@ body {
 }
 
 .teamsContainer > a > h4 {
-    color: black
+    color: black;
+    font-family: 'Proza Libre', sans-serif;
+    font-size: 0.9em;
 }
 
 .teamPage > img {
@@ -137,7 +144,10 @@ body {
     font-size: 16px;
     font-weight: 700;
 }
-
+.sectionTitle {
+    font-family: 'Proza Libre', sans-serif;
+    font-size: 1.5em;
+}
 
 @media (min-width: 768px) {
     .leagues {
@@ -149,7 +159,7 @@ body {
     }
 
     .leagues > a > img {
-        width: 80%
+        width: 70%
     }
     .teamsContainer {
         justify-content: center;
@@ -193,7 +203,7 @@ body {
         transform: scale(1.1);
     }
     .leagues > a > img {
-        width: 100%;
+        width: 70%;
     }
     .teamsContainer > a {
         width: 20%

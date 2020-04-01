@@ -62,7 +62,7 @@ function NFLLatestResult(props) {
     console.log('opponentFive', opponentFive)
     return (
         <>
-            <h1>Latest Events </h1>
+            <h1 className='sectionTitle'>Latest Events</h1>
             <div className='resultsContainer'>
                 <div className='gameInfo'>
                     <p>{latestResult[0].dateEvent}</p>
