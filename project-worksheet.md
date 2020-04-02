@@ -28,13 +28,11 @@ With this project, I will create a sports app that will display different league
 
 ## Wireframes
 
-Upload images of wireframe to cloudinary and add the link here with a description of the specific wireframe. Also, define the the React components and the architectural design of your app.
-
 - Wireframe: https://res.cloudinary.com/drxoihdbb/image/upload/v1585328825/Pictures/IMG_1303_rfm7kq.jpg
 - App Architecture: https://docs.google.com/drawings/d/14jlJaHYog9rIPPk7X7diZHopfhEK_DUmYx-h4-w7rrY/
 
 
-### MVP/PostMVP - 5min
+### MVP/PostMVP 
 
 #### MVP 
 - Find and use external api 
@@ -46,9 +44,6 @@ Upload images of wireframe to cloudinary and add the link here with a descriptio
 
 
 ## Components
-##### Writing out your components and its descriptions isn't a required part of the proposal but can be helpful.
-
-Based on the initial logic defined in the previous sections try and breakdown the logic further into stateless/stateful components. 
 
 | Component | Description | 
 | --- | :---: |  
@@ -60,8 +55,7 @@ Based on the initial logic defined in the previous sections try and breakdown th
 | League Teams | This will render the team logos |
 | Team Info | This will render the team information |
 
-
-Time frames are also key in the development cycle.  You have limited time to code all phases of the game.  Your estimates can then be used to evalute game possibilities based on time needed and the actual time you have before game must be submitted. It's always best to pad the time by a few hours so that you account for the unknown so add and additional hour or two to each component to play it safe. Also, put a gif at the top of your Readme before you pitch, and you'll get a panda prize.
+## Time Frame
 
 | Component | Priority | Estimated Time | Time Invetsted | Actual Time |
 | --- | :---: |  :---: | :---: | :---: |
@@ -81,12 +75,8 @@ Time frames are also key in the development cycle.  You have limited time to cod
 | Deployment | H | 1hr | | |
 | Total | H | 36hrs| | |
 
-## Additional Libraries
- Use this section to list all supporting libraries and thier role in the project such as Axios, ReactStrap, D3, etc. 
 
 ## Code Snippet
-
-Use this section to include a brief code snippet of functionality that you are proud of an a brief description.  Code snippet should not be greater than 10 lines of code. 
 
 ```
   useEffect(() => {
