@@ -27,9 +27,12 @@ This was created to display what I learned from my second unit of my Software En
 ## Issues and Resolutions
 **Error**: ![alt text](https://res.cloudinary.com/drxoihdbb/image/upload/v1585850370/Pictures/Screen_Shot_2020-04-02_at_10.58.58_AM_fwmug6.png)
 
-**Resolutions**: Had to use a conditional in order to access the data that was pulled in.
+**Resolution**: Had to use a conditional in order to access the data that was pulled in.
 ```
 if (!usLeague) {
         return <></>
     };
 ```
+
+**Error**: Clicking on the social media icons did not open the correct page
+![alt text](https://res.cloudinary.com/drxoihdbb/image/upload/v1585850932/Pictures/Screen_Shot_2020-03-31_at_11.29.34_AM_z46kqa.png)
