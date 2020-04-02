@@ -77,7 +77,8 @@ function NFLLatestResult(props) {
                         </div>
                     </div>
                     <div className='gameScores'>
-                            <p>{latestResult[0].strHomeTeam}: {latestResult[0].intHomeScore}   -   {latestResult[0].intAwayScore} :{latestResult[0].strAwayTeam}</p>
+                        <p>{latestResult[0].strHomeTeam}: <span className='score'>{latestResult[0].intHomeScore}</span></p>
+                        <p>{latestResult[0].strAwayTeam}: <span className='score'>{latestResult[0].intAwayScore}</span></p>
                     </div>
                 </div>
             </div>
@@ -95,7 +96,8 @@ function NFLLatestResult(props) {
                         </div>
                     </div>
                     <div className='gameScores'>
-                            <p>{latestResult[1].strHomeTeam}: {latestResult[1].intHomeScore}   -   {latestResult[1].intAwayScore} :{latestResult[1].strAwayTeam}</p>
+                        <p>{latestResult[1].strHomeTeam}: <span className='score'>{latestResult[1].intHomeScore}</span></p>
+                        <p>{latestResult[1].strAwayTeam}: <span className='score'>{latestResult[1].intAwayScore}</span></p>
                     </div>
                 </div>
             </div>
@@ -113,7 +115,8 @@ function NFLLatestResult(props) {
                         </div>
                     </div>
                     <div className='gameScores'>
-                            <p>{latestResult[2].strHomeTeam}: {latestResult[2].intHomeScore}   -   {latestResult[2].intAwayScore} :{latestResult[2].strAwayTeam}</p>
+                        <p>{latestResult[2].strHomeTeam}: <span className='score'>{latestResult[2].intHomeScore}</span></p>
+                        <p>{latestResult[2].strAwayTeam}: <span className='score'>{latestResult[2].intAwayScore}</span></p>
                     </div>
                 </div>
             </div>
@@ -131,7 +134,8 @@ function NFLLatestResult(props) {
                         </div>
                     </div>
                     <div className='gameScores'>
-                            <p>{latestResult[3].strHomeTeam}: {latestResult[3].intHomeScore}   -   {latestResult[3].intAwayScore} :{latestResult[3].strAwayTeam}</p>
+                        <p>{latestResult[3].strHomeTeam}: <span className='score'>{latestResult[3].intHomeScore}</span></p>
+                        <p>{latestResult[3].strAwayTeam}: <span className='score'>{latestResult[3].intAwayScore}</span></p>
                     </div>
                 </div>
             </div>
@@ -149,7 +153,8 @@ function NFLLatestResult(props) {
                         </div>
                     </div>
                     <div className='gameScores'>
-                            <p>{latestResult[4].strHomeTeam}: {latestResult[4].intHomeScore}   -   {latestResult[4].intAwayScore} :{latestResult[4].strAwayTeam}</p>
+                        <p>{latestResult[4].strHomeTeam}: <span className='score'>{latestResult[4].intHomeScore}</span></p>
+                        <p>{latestResult[4].strAwayTeam}: <span className='score'>{latestResult[4].intAwayScore}</span></p>
                     </div>
                 </div>
             </div>

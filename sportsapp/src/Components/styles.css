@@ -140,6 +140,11 @@ body {
 .gameScores > p {
     font-size: 0.9em;
     text-align: center;
+    margin: 0;
+}
+.score {
+    font-size: 1.3em;
+    font-weight: bold;
 }
 .teamName {
     font-family: 'Proza Libre', sans-serif;
