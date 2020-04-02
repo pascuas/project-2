@@ -34,6 +34,6 @@ if (!usLeague) {
     };
 ```
 
-**Error**: Clicking on the social media icons did not open the correct page. 
+**Error**: Clicking on the social media icons did not open the correct page. <br />
 ![alt text](https://res.cloudinary.com/drxoihdbb/image/upload/v1585850932/Pictures/Screen_Shot_2020-03-31_at_11.29.34_AM_z46kqa.png)
 
