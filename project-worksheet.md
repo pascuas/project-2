@@ -44,8 +44,6 @@ Upload images of wireframe to cloudinary and add the link here with a descriptio
 
 #### PostMVP 
 
-- User has the ability to add favorite teams
-- User can directly search for team on a form
 
 ## Components
 ##### Writing out your components and its descriptions isn't a required part of the proposal but can be helpful.
@@ -67,19 +65,19 @@ Time frames are also key in the development cycle.  You have limited time to cod
 
 | Component | Priority | Estimated Time | Time Invetsted | Actual Time |
 | --- | :---: |  :---: | :---: | :---: |
-| Header/Navigation | H | 2hrs|  |  |
-| Footer | H | 1hr | | |
-| Working with API | H | 3hrs|  |  |
-| Testing API | H | 2hrs | | |
-| Home Page | H | 4hrs | | |
-| Testing Home Page | H | 1hr | | |
-| League Teams Page | H | 4hrs | | |
-| Testing League Teams Page | H | 2hrs | | |
-| Team Information Page | H | 4hrs | |
-| Testing Team Information Page | H | 2hrs | | |
-| Main Page/Working with Router | H | 4hrs | | |
-| Testing Main Page/Routes | H | 2hrs | | |
-| CSS/Styling | H | 4hrs | | |
+| Header/Navigation | H | 2hrs| 1hr | 1hr |
+| Footer | H | 1hr | 1hr | 1hr |
+| Working with API | H | 3hrs| 3hrs | 3hrs |
+| Testing API | H | 2hrs | 2hrs | 2hrs |
+| Home Page | H | 4hrs | 2hrs | 2hrs |
+| Testing Home Page | H | 1hr | 30min | 30min |
+| League Teams Page | H | 4hrs | 3hrs | 3hrs |
+| Testing League Teams Page | H | 2hrs | 1hr | 1hr|
+| Team Information Page | H | 4hrs | 6hrs | 6hrs |
+| Testing Team Information Page | H | 2hrs | 2hrs | 2hrs |
+| Main Page/Working with Router | H | 4hrs | 2hrs | 2hrs |
+| Testing Main Page/Routes | H | 2hrs | 1hr | 1hr |
+| CSS/Styling | H | 4hrs | 5hrs | 5hrs |
 | Deployment | H | 1hr | | |
 | Total | H | 36hrs| | |
 
@@ -91,7 +89,20 @@ Time frames are also key in the development cycle.  You have limited time to cod
 Use this section to include a brief code snippet of functionality that you are proud of an a brief description.  Code snippet should not be greater than 10 lines of code. 
 
 ```
-function reverse(string) {
-	// here is the code to reverse a string of text
-}
+  useEffect(() => {
+        const resultApiCall = async () => {
+            const resultUrl = `https://www.thesportsdb.com/api/v1/json/1/eventslast.php?id=${props.team.idTeam}`
+            const resultRes = await fetch(resultUrl)
+            const resultJson = await resultRes.json()
+            console.log('result', resultJson.results)
+            setLatestResult(resultJson.results)
+        }
+        resultApiCall()
+    }, [])
+    if (!latestResult) {
+        return <></>
+    }
+    
+*This was how I was able to pull in data and also how I was able to use and render the data by using the conditional. I was having a hard time accessing the data until finally using the conditional.
 ```
+
