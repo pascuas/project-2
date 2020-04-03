@@ -3,7 +3,8 @@
 ## Project Links
 
 - github repo: https://github.com/pascuas/project-2
-- [add your deployment link]()
+- live links: http://stanley-p2.s3-website-us-west-1.amazonaws.com/ <br />
+              https://thesportsapp.netlify.com
 
 ## Project Description
 
@@ -72,8 +73,8 @@ With this project, I will create a sports app that will display different league
 | Main Page/Working with Router | H | 4hrs | 2hrs | 2hrs |
 | Testing Main Page/Routes | H | 2hrs | 1hr | 1hr |
 | CSS/Styling | H | 4hrs | 5hrs | 5hrs |
-| Deployment | H | 1hr | | |
-| Total | H | 36hrs| | |
+| Deployment | H | 1hr | 30min | 30min |
+| Total | H | 36hrs| 30hrs | 30hrs|
 
 
 ## Code Snippet
