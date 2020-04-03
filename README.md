@@ -3,6 +3,9 @@
 ## SportsApp
 With this application you can access information about a team from the NBA, NFL, MLB, and EPL. You'll be able to see the latest scores and team information. Also, you'll be able to access the team's website and the team's social media accounts.
 
+- live links: http://stanley-p2.s3-website-us-west-1.amazonaws.com/ <br />
+              https://thesportsapp.netlify.com
+
 ## Motivation
 This was created to display what I learned from my second unit of my Software Engineering Immersive Course. A fun way of doing this was making a sports app.
 
