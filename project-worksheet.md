@@ -77,7 +77,7 @@ With this project, I will create a sports app that will display different league
 | Total | H | 36hrs| 30hrs | 30hrs|
 
 ## Addtional Libraries
--FontAwesome
+- FontAwesome
 
 
 ## Code Snippet
